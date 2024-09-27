@@ -53,3 +53,27 @@ Highly Secure: Often used in enterprise-level applications where security and tr
 ## GraphQL
 Newer Query Language: Allows clients to request exactly the data they need.
 Flexible: Reduces the amount of data transferred over the network by allowing more specific queries.
+
+## Key Benefits of APIs
+* Efficiency: APIs can be used to automate tasks, reducing the need for manual intervention.
+* Innovation: APIs allow developers to access and integrate new technologies and services easily.
+* Collaboration: Different teams can work on different parts of a system simultaneously, improving productivity and innovation.
+Watch this short video to understand more here
+~~~
+flask_api_project/
+├── app.py
+├── templates/
+│   └── index.html
+├── static/
+│   └── style.css
+~~~
+
+## Setting Up the Project
+To create the project directory structure and set up a virtual environment, run the following commands in your VScode command line git bash or powershell:
+
+## To open up your terminal in VScode
+* Use the shortcut "Ctrl + ` " (backtick key). - Windows users
+* Use the shortcut "Cmd + ` " (backtick key). - Mac user
+Option 2: Click on the Terminal option in the top menu and select New Terminal.
+
+## Use Bash for this project
