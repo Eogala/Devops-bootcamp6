@@ -171,4 +171,22 @@ In the index.html in the templates directory paste the code below:
 </body>
 </html>
 ~~~
+
 In the style.css in the static directory paste this code below there:
+
+~~~
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+~~~
