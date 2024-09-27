@@ -270,8 +270,8 @@ It would like this:
 !![pic](img)
 
 ## HTTP Status Codes and their meaning:
-200 OK: The request was successful (common for GET, PUT).
-201 Created: A new resource was created (common for POST).
-204 No Content: The resource was successfully deleted (common for DELETE).
-404 Not Found: The requested resource was not found (if you try to GET, PUT, or DELETE a non-existing user).
+* 200 OK: The request was successful (common for GET, PUT).
+* 201 Created: A new resource was created (common for POST).
+* 204 No Content: The resource was successfully deleted (common for DELETE).
+* 404 Not Found: The requested resource was not found (if you try to GET, PUT, or DELETE a non-existing user).
 
