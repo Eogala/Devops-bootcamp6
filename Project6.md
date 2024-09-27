@@ -190,3 +190,58 @@ input {
 }
 
 ~~~
+
+## or just clone this repo and continue
+
+~~~
+https://github.com/TobiOlajumoke/User_management
+
+~~~
+
+## Step 3: Running the Application
+## Window Users
+~~~
+source venv/bin/activate  
+pip install Flask       
+
+~~~
+Run your Flask application:
+
+~~~
+flask run
+~~~
+Open your browser and go to http://127.0.0.1:5000 to see your application.
+
+!![pic](img)
+
+!![pic](img)
+
+!![pic](img)
+
+Step 4: Testing the API
+Using Postman:
+
+## What is Postman?
+Postman is a popular API development and testing tool that simplifies the process of creating, testing, documenting, and sharing APIs. It provides a user-friendly interface to make HTTP requests, set request headers, define request parameters, and handle responses. Postman can be very helpful for developers working with APIs, as it allows them to quickly test endpoints, debug issues, and automate testing. Watch this short tutorial on how to use postman here
+
+## Download Postman if you haven't intsalled it before
+
+Windows - here
+
+Mac (Apple silicon) installation:
+
+~~~
+curl -o- "https://dl-cli.pstmn.io/install/osx_arm64.sh" | sh
+
+~~~
+
+Mac (Intel) installation
+
+~~~
+curl -o- "https://dl-cli.pstmn.io/install/osx_64.sh" | sh
+
+~~~
+
+
+
+
