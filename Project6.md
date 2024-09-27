@@ -242,6 +242,36 @@ curl -o- "https://dl-cli.pstmn.io/install/osx_64.sh" | sh
 
 ~~~
 
+* Create a new request.
 
+!![pic](img)
 
+* Set the request type to POST and enter http://127.0.0.1:5000/users.
+
+!![pic](img)
+
+* Go to the Body tab, select raw, and choose JSON from the dropdown.
+
+* Enter the JSON data:
+
+~~~
+{
+    "id": 1,
+    "name": "your name",
+    "email": "yourname@example.com"
+}
+
+~~~
+
+* Click Send and check the response.
+
+It would like this:
+
+!![pic](img)
+
+## HTTP Status Codes and their meaning:
+200 OK: The request was successful (common for GET, PUT).
+201 Created: A new resource was created (common for POST).
+204 No Content: The resource was successfully deleted (common for DELETE).
+404 Not Found: The requested resource was not found (if you try to GET, PUT, or DELETE a non-existing user).
 
