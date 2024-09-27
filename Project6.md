@@ -43,3 +43,13 @@ Response: The server responds with a list of users in JSON format.
   { "id": 2, "name": "Bob" }
 ]
 ~~~
+## Types of APIs
+## REST (Representational State Transfer)
+Most Common: REST APIs use standard HTTP methods (GET, POST, PUT, DELETE).
+Stateless: Each request from the client to the server must contain all the information needed to understand and process the request.
+## SOAP (Simple Object Access Protocol)
+Older Protocol: Uses XML for message format and can be more complex.
+Highly Secure: Often used in enterprise-level applications where security and transaction management are crucial.
+## GraphQL
+Newer Query Language: Allows clients to request exactly the data they need.
+Flexible: Reduces the amount of data transferred over the network by allowing more specific queries.
