@@ -130,6 +130,7 @@ if __name__ == '__main__':
     app.run(debug=True)
     ~~~
 
+!![pic](img)
 In the index.html in the templates directory paste the code below: 
 
 ~~~
@@ -172,7 +173,9 @@ In the index.html in the templates directory paste the code below:
 </html>
 ~~~
 
-In the style.css in the static directory paste this code below there:
+!![pic](img)
+
+In the style.css in the static directory paste this code below  and enter Ctrl save
 
 ~~~
 
@@ -190,6 +193,8 @@ input {
 }
 
 ~~~
+
+!![pic](img)
 
 ## or just clone this repo and continue
 
@@ -212,9 +217,9 @@ flask run
 ~~~
 Open your browser and go to http://127.0.0.1:5000 to see your application.
 
-!![pic](img)
+!![pic](img/Screenshot%20(478).png)
 
-!![pic](img)
+!![pic](img/Screenshot%20(479).png)
 
 !![pic](img)
 
@@ -244,11 +249,17 @@ curl -o- "https://dl-cli.pstmn.io/install/osx_64.sh" | sh
 
 * Create a new request.
 
-!![pic](img)
+!![pic](img/Screenshot%20(487).png)
+
+!![pic](img/Screenshot%20(490).png)
+
+
 
 * Set the request type to POST and enter http://127.0.0.1:5000/users.
 
 !![pic](img)
+
+
 
 * Go to the Body tab, select raw, and choose JSON from the dropdown.
 
@@ -266,6 +277,12 @@ curl -o- "https://dl-cli.pstmn.io/install/osx_64.sh" | sh
 * Click Send and check the response.
 
 It would like this:
+
+!![pic](img/Screenshot%20(493).png)
+
+!![pic](img/Screenshot%20(494).png)
+
+!![pic](img/Screenshot%20(495).png)
 
 !![pic](img)
 
