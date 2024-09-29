@@ -201,6 +201,13 @@ input {
 ~~~
 !![pic](img/Screenshot%20(503).png)
 
+# Step 3: Running the Application
+## clone this repo and continue
+~~~
+https://github.com/TobiOlajumoke/User_management
+~~~
+
+
 Open your browser and go to http://127.0.0.1:5000 to see your application.
 
 !![pic](img/Screenshot%20(478).png)
