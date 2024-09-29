@@ -138,6 +138,9 @@ if __name__ == '__main__':
     app.run(debug=True)
     
 ~~~
+
+!![pic](img/Screenshot%20(501).png)
+
 ## index.html in the templates directory paste the code below
 ~~~
 <!DOCTYPE html>
@@ -178,6 +181,9 @@ if __name__ == '__main__':
 </body>
 </html>
 ~~~
+
+!![pic](img/Screenshot%20(502).png)
+
 ## In the style.css in the static directory paste this code below there:
 ~~~
 body {
@@ -193,7 +199,7 @@ input {
     margin-right: 10px;
 }
 ~~~
-
+!![pic](img/Screenshot%20(503).png)
 
 Open your browser and go to http://127.0.0.1:5000 to see your application.
 
