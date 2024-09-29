@@ -90,6 +90,8 @@ mkdir -p flask_api_project/{templates,static} && touch flask_api_project/app.py 
 
 The command above will create the project enviroment
 
+
+## In the app.py file paste the code below
 ~~~
 from flask import Flask, request, jsonify, render_template
 
@@ -137,8 +139,7 @@ if __name__ == '__main__':
 
 !![pic](img/Screenshot%20(501).png)
 
-
-In the index.html in the templates directory paste the code below: 
+In the index.html in the templates directory paste the code below:
 
 ~~~
 <!DOCTYPE html>
@@ -182,7 +183,8 @@ In the index.html in the templates directory paste the code below:
 
 !![pic](img/Screenshot%20(502).png)
 
-In the style.css in the static directory paste this code below  and enter Ctrl save
+
+## In the style.css in the static directory paste this code below  and enter Ctrl save
 
 ~~~
 
@@ -202,6 +204,8 @@ input {
 ~~~
 
 !![pic](img/Screenshot%20(503).png)
+
+
 
 ## or just clone this repo and continue
 
@@ -297,7 +301,7 @@ It would like this:
 
 
 
-!![pic](img)
+!![pic](img/Screenshot%20(499).png)
 
 ## HTTP Status Codes and their meaning:
 * 200 OK: The request was successful (common for GET, PUT).
