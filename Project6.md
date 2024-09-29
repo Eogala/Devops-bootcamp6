@@ -222,6 +222,8 @@ pip install Flask
 flask run
 ~~~
 
+!![pic](img/Screenshot%20(496).png)
+
 Open your browser and go to http://127.0.0.1:5000 to see your application.
 
 !![pic](img/Screenshot%20(478).png)
@@ -229,7 +231,7 @@ Open your browser and go to http://127.0.0.1:5000 to see your application.
 !![pic](img/Screenshot%20(479).png)
 
 
-Step 4: Testing the API
+# Step 4: Testing the API
 Using Postman:
 
 ## What is Postman?
