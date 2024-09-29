@@ -306,3 +306,4 @@ It would like this:
 * 204 No Content: The resource was successfully deleted (common for DELETE).
 * 404 Not Found: The requested resource was not found (if you try to GET, PUT, or DELETE a non-existing user).
 
+## The End
