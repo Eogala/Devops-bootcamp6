@@ -137,48 +137,6 @@ if __name__ == '__main__':
     app.run(debug=True)
     ~~~
 
-!![pic](img/Screenshot%20(501).png)
-
-## In the index.html in the templates directory paste the code below:
-~~~
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>API-Based Application</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-</head>
-<body>
-    <h1>User Management</h1>
-    <form id="userForm">
-        <input type="text" id="name" placeholder="Name" required>
-        <input type="email" id="email" placeholder="Email" required>
-        <button type="submit">Add User</button>
-    </form>
-    <ul id="userList"></ul>
-
-    <script>
-        document.getElementById('userForm').addEventListener('submit', async function (event) {
-            event.preventDefault();
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            
-            const response = await fetch('/users', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ name, email })
-            });
-
-            const user = await response.json();
-            document.getElementById('userList').innerHTML += `<li>${user.name} (${user.email})</li>`;
-        });
-    </script>
-</body>
-</html>
-~~~
 
 
 ## In the style.css in the static directory paste this code below  and enter Ctrl save
@@ -204,7 +162,7 @@ input {
 
 
 
-## or just clone this repo and continue
+## or clone this repo and continue
 
 ~~~
 https://github.com/TobiOlajumoke/User_management
@@ -214,22 +172,23 @@ https://github.com/TobiOlajumoke/User_management
 ## Step 3: Running the Application
 ## Window Users
 ~~~
+python -m venv venv
 source venv/bin/activate  
 pip install Flask       
-
 ~~~
+
 Run your Flask application:
 
 ~~~
 flask run
 ~~~
+
 Open your browser and go to http://127.0.0.1:5000 to see your application.
 
 !![pic](img/Screenshot%20(478).png)
 
 !![pic](img/Screenshot%20(479).png)
 
-!![pic](img)
 
 Step 4: Testing the API
 Using Postman:
