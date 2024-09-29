@@ -78,13 +78,18 @@ Option 2: Click on the Terminal option in the top menu and select New Terminal.
 
 ## Use Bash for this project
 
-!![pic](img)
+!![pic](img/02.png)
 
 ## Using gitbash
 ~~~
 mkdir -p flask_api_project/{templates,static} && touch flask_api_project/app.py flask_api_project/templates/index.html flask_api_project/static/style.css && python -m venv flask_api_project/venv
 ~~~
+
+!![pic](img/01.png)
+
+
 The command above will create the project enviroment
+
 ~~~
 from flask import Flask, request, jsonify, render_template
 
@@ -130,7 +135,9 @@ if __name__ == '__main__':
     app.run(debug=True)
     ~~~
 
-!![pic](img)
+!![pic](img/Screenshot%20(501).png)
+
+
 In the index.html in the templates directory paste the code below: 
 
 ~~~
@@ -173,7 +180,7 @@ In the index.html in the templates directory paste the code below:
 </html>
 ~~~
 
-!![pic](img)
+!![pic](img/Screenshot%20(502).png)
 
 In the style.css in the static directory paste this code below  and enter Ctrl save
 
@@ -194,7 +201,7 @@ input {
 
 ~~~
 
-!![pic](img)
+!![pic](img/Screenshot%20(503).png)
 
 ## or just clone this repo and continue
 
@@ -257,7 +264,7 @@ curl -o- "https://dl-cli.pstmn.io/install/osx_64.sh" | sh
 
 * Set the request type to POST and enter http://127.0.0.1:5000/users.
 
-!![pic](img)
+!![pic](img/Screenshot%20(491).png)
 
 
 
@@ -280,9 +287,15 @@ It would like this:
 
 !![pic](img/Screenshot%20(493).png)
 
+
+
 !![pic](img/Screenshot%20(494).png)
 
+
+
 !![pic](img/Screenshot%20(495).png)
+
+
 
 !![pic](img)
 
