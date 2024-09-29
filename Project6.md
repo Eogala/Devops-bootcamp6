@@ -212,6 +212,15 @@ python -m venv venv
 source venv/Scripts/activate
 pip install Flask
 ~~~
+# Mac Users
+~~~
+source venv/bin/activate  
+pip install Flask       
+~~~
+* Then Run your Flask application:
+~~~
+flask run
+~~~
 
 Open your browser and go to http://127.0.0.1:5000 to see your application.
 
