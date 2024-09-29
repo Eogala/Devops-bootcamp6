@@ -178,6 +178,22 @@ if __name__ == '__main__':
 </body>
 </html>
 ~~~
+## In the style.css in the static directory paste this code below there:
+~~~
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-right: 10px;
+}
+~~~
+
 
 Open your browser and go to http://127.0.0.1:5000 to see your application.
 
