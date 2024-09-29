@@ -139,8 +139,7 @@ if __name__ == '__main__':
 
 !![pic](img/Screenshot%20(501).png)
 
-In the index.html in the templates directory paste the code below:
-
+## In the index.html in the templates directory paste the code below:
 ~~~
 <!DOCTYPE html>
 <html lang="en">
@@ -180,8 +179,6 @@ In the index.html in the templates directory paste the code below:
 </body>
 </html>
 ~~~
-
-!![pic](img/Screenshot%20(502).png)
 
 
 ## In the style.css in the static directory paste this code below  and enter Ctrl save
