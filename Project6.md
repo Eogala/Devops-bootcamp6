@@ -206,7 +206,12 @@ input {
 ~~~
 https://github.com/TobiOlajumoke/User_management
 ~~~
-
+## Window Users
+~~~
+python -m venv venv
+source venv/Scripts/activate
+pip install Flask
+~~~
 
 Open your browser and go to http://127.0.0.1:5000 to see your application.
 
